@@ -18,7 +18,7 @@
 
         End If
         If String.IsNullOrWhiteSpace(txtPrenom.Text) Then ' Vérifie si le champ Nom est vide ou contient uniquement des espaces
-            ErrorProvider1.SetError(txtPrenom, "Le nom ne peut pas être vide.")
+            ErrorProvider1.SetError(txtPrenom, "Le prenom ne peut pas être vide.")
 
             Return
 
